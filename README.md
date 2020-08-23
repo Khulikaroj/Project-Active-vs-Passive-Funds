@@ -67,4 +67,5 @@ We compare 3 portfolios and analyze the result based on what we can concluded fr
 ## File Directory
 
 Jupyter Notebook file: master notebook.ipynb
+
 Interactive Dashboard: active-vs-passive-fund.html
