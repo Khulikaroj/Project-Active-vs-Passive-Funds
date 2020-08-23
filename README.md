@@ -4,7 +4,6 @@
 ### Contributors: 
 Phara Dorisca (https://github.com/pdorisca), Khulika Rojanakanoksak (https://github.com/Khulikaroj), Femi Aina (https://github.com/Femi-tech) ,Ogo Nwanyanwu (https://github.com/Ogo1024)
 
-
 In this project, we try proposing an optimal equity portfolio which give the best risk-return tradeoff from allocating between passive fund and active fund. First, we look at risk/return characteristic of passive and active funds in the past to see which type of portfolio perform best. Then we construct portfolios based on conclusion we have from historical data analysis. We project return of the portfolio and evaluate risk/return characteristic. 
 Active funds that we analyze in this project will be based on factor investing idea. These funds’ allocation will deviate from market index and based on key underlying factors that each type of fund designed to beat market return. According to MSCI, there are 7 groups of active funds.  
 1.	Value: This fund will try to include stocks with cheap valuation into portfolio to capture investment opportunity from price traded below fundamental value. We pick IVE (iShares S&P 500 Value ETF) as represent fund for this group.
@@ -19,7 +18,7 @@ Active funds that we analyze in this project will be based on factor investing i
 Will Active investment generate return more than Passive Investment?
 
 ### Data and Method:
-In this analysis, we use daily price data of each fund from Yahoofinance as the source give flexibility in using without any access key and easier to update the data to the most recent date available. ETFs funds that we pick in this analysis will be based on (1) earliest inception date of ETFs to get maximum data points and (2) large Asset Under Management (AUM). Our data cover  07/18/2013 to the most recent date. We use ffn library in analysing funds' risk and return characteristic to gain understanding in each active investment style. We also look into risk and return characteristics in different scenarios in the past to check if each fund perform differently under different context such as (1) Taper Tantrum which represent the period of high market volatility in 2013  as investors feared that Fed will withdraw large amount of support in bond market and could increase funding rate. (2) Hike cycle in 2016-18  which represent period of good economic growth that Fed feel confident to increase policy rate. (3) Recent market turmoil during COVID pandemic which cause VIX index to spike in Mar. 
+In this analysis, we use daily price data of each fund from Yahoofinance as the source give flexibility in using without any access key and easier to update the data to the most recent date available. Moreover, all codes can be downloaded and run on local location without csv data needed.  ETFs funds that we pick in this analysis will be based on (1) earliest inception date of ETFs to get maximum data points and (2) large Asset Under Management (AUM). Our data cover  07/18/2013 to the most recent date. We use ffn library in analysing funds' risk and return characteristic to gain understanding in each active investment style. We also look into risk and return characteristics in different scenarios in the past to check if each fund perform differently under different context such as (1) Taper Tantrum which represent the period of high market volatility in 2013  as investors feared that Fed will withdraw large amount of support in bond market and could increase funding rate. (2) Hike cycle in 2016-18  which represent period of good economic growth that Fed feel confident to increase policy rate. (3) Recent market turmoil during COVID pandemic which cause VIX index to spike in Mar. 
 
 ### Historical Analysis:
 
@@ -64,3 +63,8 @@ We compare 3 portfolios and analyze the result based on what we can concluded fr
 
 ### Compared to equal-weight portfoliom, Max-Sharpe portfolio can increase average return in 1Y-projected period while enhance upside gain. In contrast, Min-Vol would lower portfolio’s volatiliry with the cost of lower return.
 ![Return Overlay Histogram](conclusion5.PNG)
+---
+## File Directory
+
+Jupyter Notebook file: master notebook.ipynb
+Interactive Dashboard: active-vs-passive-fund.html
