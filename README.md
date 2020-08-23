@@ -17,9 +17,9 @@ Active funds that we analyze in this project will be based on factor investing i
 5.	High Dividend: This type of fund will try to excess returns to stocks that have higher-than-average dividend yields. We pick FDL (First Trust Morningstar Dividend Leaders) as represent fund for this group.
 6.	Quality: This fund will try to generate alpha by including stocks that are characterized by low debt, stable earnings growth, and other “quality” metrics. We pick QUAL (iShares Edge MSCI USA Quality Factor ETF) as represent fund for this group.
 7.	Growth: Alpha from this kind of fund would come from adding high growth stocks into portfolio. We pick IVW (iShares S&P 500 Growth ETF) as represent fund for this group.
----
+
 Hypothesis of project: Will Active investment generate return more than Passive Investment?
----
+
 Data and Method
 In this analysis, we use daily price data of each fund from Yahoofinance as the source give flexibility in using without any access key and easier to update the data to the most recent date available. ETFs funds that we pick in this analysis will be based on (1) earliest inception date of ETFs to get maximum data points and (2) large Asset Under Management (AUM). Our data cover  07/18/2013 to the most recent date. We use ffn library in analysing funds' risk and return characteristic to gain understanding in each active investment style. We also look into risk and return characteristics in different scenarios in the past to check if each fund perform differently under different context such as (1) Taper Tantrum which represent the period of high market volatility in 2013  as investors feared that Fed will withdraw large amount of support in bond market and could increase funding rate. (2) Hike cycle in 2016-18  which represent period of good economic growth that Fed feel confident to increase policy rate. (3) Recent market turmoil during COVID pandemic which cause VIX index to spike in Mar. 
 ---
